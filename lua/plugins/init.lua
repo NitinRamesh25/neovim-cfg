@@ -95,4 +95,12 @@ return {
       },
       opts = { theme = "light", app = "browser" },
   },
+
+  {
+      'numToStr/Comment.nvim',
+      opts = {
+          -- add any options here
+      },
+      lazy = false,
+  }
 }
